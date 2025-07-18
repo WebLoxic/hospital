@@ -8,12 +8,12 @@ const PatientList = () => {
   const [editPatient, setEditPatient] = useState(null);
   const [editFormData, setEditFormData] = useState({
     name: '',
-    
+
     phone: '',   
     gender: '',
     status: '',
     address: ''
-  });
+  });       
 
   const role = localStorage.getItem('role');
   const navigate = useNavigate();
